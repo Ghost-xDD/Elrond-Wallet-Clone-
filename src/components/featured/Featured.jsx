@@ -45,7 +45,7 @@ const Featured = () => {
             <span>$0.00</span>
           </div>
         </div>
-        <div className="card">
+        <div className="card card2_bg">
           <ImStack className="icon" />
           <h4>STAKED NODES</h4>
           <div className="currency">

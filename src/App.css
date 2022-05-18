@@ -2,44 +2,84 @@
   /* ff 3.6+ */
   background: -moz-linear-gradient(
     90deg,
-    rgba(255, 255, 0, 1) 0%,
-    rgba(255, 180, 0, 1) 47%,
+    rgba(167, 163, 40, 1) 0%,
+    rgba(157, 112, 3, 1) 47%,
     rgba(255, 174, 0, 1) 100%
   );
 
   /* safari 5.1+,chrome 10+ */
   background: -webkit-linear-gradient(
     90deg,
-    rgba(255, 255, 0, 1) 0%,
-    rgba(255, 180, 0, 1) 47%,
+    rgba(167, 163, 40, 1) 0%,
+    rgba(157, 112, 3, 1) 47%,
     rgba(255, 174, 0, 1) 100%
   );
 
   /* opera 11.10+ */
   background: -o-linear-gradient(
     90deg,
-    rgba(255, 255, 0, 1) 0%,
-    rgba(255, 180, 0, 1) 47%,
+    rgba(167, 163, 40, 1) 0%,
+    rgba(157, 112, 3, 1) 47%,
     rgba(255, 174, 0, 1) 100%
   );
 
   /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFAE00', endColorstr='#FFFF00', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFAE00', endColorstr='#A7A328', GradientType=0 );
 
   /* ie 10+ */
   background: -ms-linear-gradient(
     90deg,
-    rgba(255, 255, 0, 1) 0%,
-    rgba(255, 180, 0, 1) 47%,
+    rgba(167, 163, 40, 1) 0%,
+    rgba(157, 112, 3, 1) 47%,
     rgba(255, 174, 0, 1) 100%
   );
 
   /* global 94%+ browsers support */
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 0, 1) 0%,
-    rgba(255, 180, 0, 1) 47%,
+    rgba(167, 163, 40, 1) 0%,
+    rgba(157, 112, 3, 1) 47%,
     rgba(255, 174, 0, 1) 100%
+  );
+}
+
+.card2_bg {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(167, 93, 40, 0.69) 0%,
+    rgba(170, 98, 28, 0.74) 99%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(167, 93, 40, 0.69) 0%,
+    rgba(170, 98, 28, 0.74) 99%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(167, 93, 40, 0.69) 0%,
+    rgba(170, 98, 28, 0.74) 99%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AA621C', endColorstr='#A75D28', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(167, 93, 40, 0.69) 0%,
+    rgba(170, 98, 28, 0.74) 99%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(167, 93, 40, 0.69) 0%,
+    rgba(170, 98, 28, 0.74) 99%
   );
 }
 

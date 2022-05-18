@@ -1,12 +1,29 @@
 .dashboard {
   display: flex;
+  overflow: hidden;
 
   .dashboardContainer {
     flex: 6;
+    min-width: 0;
 
     .dashboardBody {
       background: #e9f3ff;
       width: 100%;
+      height: 100%;
+    }
+
+    .dashboardRow {
+      width: 100%;
+      padding: 5px;
+
+      .dashboardItem {
+        display: flex;
+        flex-direction: row;
+
+        &:first-child {
+          gap: 3rem;
+        }
+      }
     }
   }
 }

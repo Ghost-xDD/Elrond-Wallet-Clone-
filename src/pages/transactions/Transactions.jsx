@@ -1,4 +1,4 @@
-import './transactions.scss';
+import React from 'react'
 
 const Transactions = () => {
   return (
