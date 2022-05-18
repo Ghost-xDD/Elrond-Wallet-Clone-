@@ -1,0 +1,12 @@
+.dashboard {
+  display: flex;
+
+  .dashboardContainer {
+    flex: 6;
+
+    .dashboardBody {
+      background: #e9f3ff;
+      width: 100%;
+    }
+  }
+}

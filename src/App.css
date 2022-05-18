@@ -1,0 +1,62 @@
+.card1_bg {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(255, 180, 0, 1) 47%,
+    rgba(255, 174, 0, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(255, 180, 0, 1) 47%,
+    rgba(255, 174, 0, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(255, 180, 0, 1) 47%,
+    rgba(255, 174, 0, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFAE00', endColorstr='#FFFF00', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(255, 180, 0, 1) 47%,
+    rgba(255, 174, 0, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(255, 180, 0, 1) 47%,
+    rgba(255, 174, 0, 1) 100%
+  );
+}
+
+.first {
+  background-image: url('assets/abstract9.jpg');
+  background-position: top left;
+  flex: 1;
+}
+
+.second {
+  background-image: url('assets/random.webp');
+  background-position: top right;
+  /* background-color: blue; */
+}
+
+.third {
+  background-image: url('assets/greenish.webp');
+  background-position: center center;
+  /* background-color: blue; */
+}
