@@ -1,6 +1,6 @@
 .dashboard {
   display: flex;
-  overflow: hidden;
+  overflow: clip;
 
   .dashboardContainer {
     flex: 6;
