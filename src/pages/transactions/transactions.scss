@@ -1,0 +1,118 @@
+.transactions {
+  display: flex;
+  overflow: clip;
+  // background: #e9f3ff83;
+  // background: #e9f3ff;
+
+  .transactionsContainer {
+    flex: 6;
+    min-width: 0;
+
+    .transactionsBody {
+      padding: 50px;
+      width: 86%;
+      margin-left: 35px;
+      margin-top: 5px;
+
+      .title {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+        span {
+          font-size: 10px;
+          text-transform: uppercase;
+          color: grey;
+          padding-bottom: 0;
+          margin-bottom: 0;
+          letter-spacing: 3px;
+        }
+
+        .titleContainer {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-between;
+          padding-bottom: 30px;
+
+          .icon {
+            // font-size: 14px;
+
+            &:nth-child(1) {
+              border: 1px solid rgba(85, 85, 85, 0.514);
+              padding: 5px;
+              border-radius: 5px;
+              color: darkblue;
+              font-size: 14px;
+              margin-right: 8px;
+            }
+
+            &:nth-child(2) {
+              border: 1px solid rgba(85, 85, 85, 0.514);
+              padding: 5px;
+              border-radius: 5px;
+              color: rgba(0, 0, 255, 0.692);
+            }
+          }
+
+          .titleHeading {
+            display: flex;
+            align-items: center;
+
+            h4 {
+              font-size: 24px;
+              margin: 0;
+            }
+
+            .icon {
+              color: rgba(128, 128, 128, 0.589);
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      .transactionsContent {
+        background: #fff;
+        padding: 2px 20px;
+        border-radius: 8px;
+        height: 400px;
+
+        .transactionsContentHeader {
+          display: flex;
+          border-bottom: 1px solid rgba(128, 128, 128, 0.377);
+
+          h4 {
+            margin-right: 12px;
+            font-size: 17px;
+            cursor: pointer;
+          }
+        }
+
+        .transactionsMain {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 8%;
+
+          .icon {
+            font-size: 50px;
+            color: rgba(0, 0, 255, 0.644);
+            // font-weight: bold;
+          }
+
+          h4 {
+            margin: 0;
+            padding-top: 20px;
+            font-size: 30px;
+            color: rgba(0, 0, 0, 0.733);
+          }
+
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

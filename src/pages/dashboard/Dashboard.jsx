@@ -4,14 +4,13 @@ import Navbar from '../../components/navbar/Navbar';
 import Featured from '../../components/featured/Featured';
 import Chart from '../../components/chart/Chart';
 import TokenStat from '../../components/tokenStat/TokenStat';
-import Transactions from '../../components/transaction/Transaction';
 import Transaction from '../../components/transaction/Transaction';
 
 const Dashboard = () => {
   return (
     <div className="dashboard">
       <Sidebar />
-      <div className="dashboardContainer">
+      <div className="dashboardContainer bg">
         <Navbar />
         <div className="dashboardBody">
           <Featured />

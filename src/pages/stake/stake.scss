@@ -1,0 +1,116 @@
+.stake {
+  display: flex;
+  overflow: clip;
+
+  .stakeContainer {
+    flex: 6;
+    min-width: 0;
+
+    .stakeBody {
+      padding: 50px;
+      width: 86%;
+      //   margin-left: 35px;
+      //   margin-top: 5px;
+
+      .title {
+        span {
+          font-size: 10px;
+          text-transform: uppercase;
+          color: rgba(128, 128, 128, 0.719);
+          padding: 0;
+          margin: 0;
+          letter-spacing: 3px;
+        }
+      }
+
+      .titleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .titleHeading {
+          display: flex;
+          align-items: center;
+
+          h4 {
+            font-size: 22px;
+            line-height: 1rem;
+            margin: 0;
+          }
+        }
+
+        .btn {
+          background: rgba(0, 0, 255, 0.705);
+          padding: 10px;
+          border-radius: 10px;
+          color: #fff;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .overviewContainer {
+      background: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 30px;
+      width: 70%;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      //   height: 60%;
+
+      .overviewTitle {
+        h5 {
+          font-size: 18px;
+          margin: 0;
+          border-bottom: 1px solid rgba(85, 85, 85, 0.247);
+          padding: 5px;
+        }
+      }
+
+      .cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        padding: 30px;
+        // flex-wrap: wrap;
+        // flex: 2;
+
+        .card {
+          flex: 1;
+          padding: 5px 20px;
+          padding-bottom: 20px;
+          border-radius: 10px;
+          justify-content: space-between;
+
+          //   &:nth-child(3) {
+          //     flex-shrink: 0;
+          //     flex-basis: 0;
+          //     flex-grow: 25%;
+          //     padding: 5px 20px;
+          //   }
+
+          h5 {
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+          }
+
+          h6 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            // padding: 0;
+          }
+
+          span {
+            font-size: 12px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
