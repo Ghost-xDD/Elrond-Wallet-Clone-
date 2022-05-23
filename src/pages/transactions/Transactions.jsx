@@ -14,7 +14,7 @@ const Transactions = () => {
       <div className="transactionsContainer bg">
         <Navbar />
         <div className="transactionsBody ">
-          <div className="title">
+          <div className="title"> 
             <span>Elrond</span>
             <div className="titleContainer">
               <div className="titleHeading">

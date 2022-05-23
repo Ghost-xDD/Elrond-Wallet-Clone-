@@ -136,161 +136,36 @@
 }
 
 .stake1_bg {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(0, 0, 255, 0.68) 0%,
-    rgba(0, 0, 255, 0.33) 99%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(0, 0, 255, 0.68) 0%,
-    rgba(0, 0, 255, 0.33) 99%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    90deg,
-    rgba(0, 0, 255, 0.68) 0%,
-    rgba(0, 0, 255, 0.33) 99%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000FF', endColorstr='#0000FF', GradientType=0 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    90deg,
-    rgba(0, 0, 255, 0.68) 0%,
-    rgba(0, 0, 255, 0.33) 99%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 255, 0.68) 0%,
-    rgba(0, 0, 255, 0.33) 99%
-  );
+  background: linear-gradient(153.43deg, #1233b2, #3464d0);
 }
 
 .stake2_bg {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(0, 129, 255, 0.6) 0%,
-    rgba(0, 107, 255, 0.34) 100%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(0, 129, 255, 0.6) 0%,
-    rgba(0, 107, 255, 0.34) 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    90deg,
-    rgba(0, 129, 255, 0.6) 0%,
-    rgba(0, 107, 255, 0.34) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006BFF', endColorstr='#0081FF', GradientType=0 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    90deg,
-    rgba(0, 129, 255, 0.6) 0%,
-    rgba(0, 107, 255, 0.34) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    90deg,
-    rgba(0, 129, 255, 0.6) 0%,
-    rgba(0, 107, 255, 0.34) 100%
-  );
+  background: linear-gradient(153.43deg, #3585dd, #64adeb);
 }
 
 .stake3_bg {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(0, 59, 255, 0.6) 0%,
-    rgba(0, 37, 255, 0.34) 100%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(0, 59, 255, 0.6) 0%,
-    rgba(0, 37, 255, 0.34) 100%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    90deg,
-    rgba(0, 59, 255, 0.6) 0%,
-    rgba(0, 37, 255, 0.34) 100%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0025FF', endColorstr='#003BFF', GradientType=0 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    90deg,
-    rgba(0, 59, 255, 0.6) 0%,
-    rgba(0, 37, 255, 0.34) 100%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    90deg,
-    rgba(0, 59, 255, 0.6) 0%,
-    rgba(0, 37, 255, 0.34) 100%
-  );
+  background: linear-gradient(153.43deg, #3585dd, #64adeb);
 }
 
 .stake4_bg {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(0, 255, 67, 0.6) 1%,
-    rgba(0, 255, 22, 0.62) 95%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(0, 255, 67, 0.6) 1%,
-    rgba(0, 255, 22, 0.62) 95%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    90deg,
-    rgba(0, 255, 67, 0.6) 1%,
-    rgba(0, 255, 22, 0.62) 95%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FF16', endColorstr='#00FF43', GradientType=0 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    90deg,
-    rgba(0, 255, 67, 0.6) 1%,
-    rgba(0, 255, 22, 0.62) 95%
-  );
-
-  /* global 94%+ browsers support */
-  background: linear-gradient(
-    90deg,
-    rgba(0, 255, 67, 0.6) 1%,
-    rgba(0, 255, 22, 0.62) 95%
-  );
+  background: linear-gradient(153.43deg, #209d67, #4bc197);
 }
+
+.stakeImg {
+  background-image: url('https://media.istockphoto.com/photos/global-communication-network-picture-id1317845608?k=20&m=1317845608&s=612x612&w=0&h=uDWwIYdOjxVh17lzQ2tB3dzDnzaP-y85Dc6fSs_9494=');
+  width: 500px;
+  height: 300px;
+  border-radius: 20px 0px 0px 20px;
+  /* clip-path: ellipse(226% 90% at -29.04% 10%); */
+  filter: contrast(110%) brightness(80%);
+  position: top center;
+  /* color: #fff; */
+}
+
+/* .active {
+  background-color: #f5f5f5;
+  box-shadow: inset 0.1875rem 0 0 #1b46c2;
+  color: #1b46c2;
+  text-decoration: none;
+} */
+

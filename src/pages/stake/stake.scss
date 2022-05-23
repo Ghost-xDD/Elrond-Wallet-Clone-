@@ -8,9 +8,18 @@
 
     .stakeBody {
       padding: 50px;
-      width: 86%;
+      width: 93%;
       //   margin-left: 35px;
       //   margin-top: 5px;
+
+      .btn {
+        background: #1b46c2;
+        padding: 10px;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+      }
 
       .title {
         span {
@@ -39,76 +48,232 @@
           }
         }
 
-        .btn {
-          background: rgba(0, 0, 255, 0.705);
+        // .btn {
+        //   background: #1b46c2;
+        //   padding: 10px;
+        //   border-radius: 6px;
+        //   color: #fff;
+        //   font-size: 14px;
+        //   cursor: pointer;
+        // }
+      }
+    }
+
+    .container {
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+      // justify-content: space-between;
+
+      .contentContainer {
+        flex: 3 0 0;
+
+        .overviewContainer {
+          background: #fff;
           padding: 10px;
           border-radius: 10px;
-          color: #fff;
-          font-size: 14px;
-          cursor: pointer;
+          margin-top: 30px;
+          width: 94%;
+          margin-bottom: 0;
+          padding-bottom: 0;
+          //   height: 60%;
+
+          .overviewTitle {
+            h5 {
+              font-size: 18px;
+              margin: 0;
+              border-bottom: 1px solid rgba(85, 85, 85, 0.247);
+              padding: 5px;
+            }
+          }
+
+          .cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            padding: 30px;
+            // flex-wrap: wrap;
+            // flex: 2;
+
+            .card {
+              flex: 1;
+              padding: 5px 20px;
+              padding-bottom: 20px;
+              border-radius: 10px;
+              justify-content: space-between;
+
+              &:nth-child(1) {
+                flex: 0 1 26%;
+              }
+
+              &:nth-child(2) {
+                flex: 0 1 26%;
+              }
+
+              &:nth-child(3) {
+                flex: 0 1 26%;
+              }
+
+              h5 {
+                font-size: 14px;
+                text-transform: uppercase;
+                margin-bottom: 0;
+                font-weight: normal;
+              }
+
+              h6 {
+                font-size: 14px;
+                margin-bottom: 10px;
+                font-weight: bold;
+                // padding: 0;
+              }
+
+              span {
+                font-size: 12px;
+                font-weight: normal;
+              }
+            }
+          }
+        }
+      }
+
+      .staking {
+        margin-top: 35px;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        padding: 10px 20px;
+        width: 26%;
+        border-radius: 10px;
+        align-items: center;
+
+        // &:nth-child(4) {
+        //   align-items: center;
+        // }
+
+        .stakingTitle {
+          align-items: start;
+          width: 100%;
+          padding-bottom: 10px;
+          border-bottom: 1px solid rgba(85, 85, 85, 0.281);
+
+          h5 {
+            margin: 0;
+            font-size: 19px;
+          }
+        }
+
+        .stakingContent {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          // border: 1px solid red;
+          // flex: 1 1 0;
+          // padding: 50px;
+
+          .stakingTimer {
+            width: 100%;
+
+            h4 {
+              margin: 0;
+              padding: 0;
+              text-align: center;
+              margin-bottom: 20px;
+              margin-top: 20px;
+            }
+
+            span {
+              padding: 0;
+              margin: 0;
+              display: flex;
+              // align-items: center;
+              padding-left: 10px;
+              width: 100%;
+              text-align: center;
+              color: rgba(85, 85, 85, 0.685);
+            }
+          }
+
+          .stakingProgress {
+            width: 200px;
+            height: 100px;
+            color: #fff;
+            margin-top: 40px;
+            // align-items: center;
+          }
+
+          .style {
+            margin-top: 60%;
+            padding-left: 10px;
+            flex-wrap: wrap;
+
+            span {
+              text-align: center;
+              color: rgba(85, 85, 85, 0.685);
+            }
+          }
         }
       }
     }
 
-    .overviewContainer {
-      background: #fff;
-      padding: 10px;
-      border-radius: 10px;
+    .stakeStats {
+      display: flex;
+      align-items: center;
       margin-top: 30px;
-      width: 70%;
-      margin-bottom: 0;
-      padding-bottom: 0;
-      //   height: 60%;
+      background: #fff;
+      // padding: 10px;
+      border-radius: 20px;
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
 
-      .overviewTitle {
-        h5 {
-          font-size: 18px;
+      .div1 {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        height: 280px;
+
+        h4 {
+          margin-top: 18%;
+          font-size: 30px;
+        }
+
+        span {
           margin: 0;
-          border-bottom: 1px solid rgba(85, 85, 85, 0.247);
-          padding: 5px;
+          padding: 0;
+          font-size: 24px;
         }
       }
 
-      .cards {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: #fff;
-        padding: 30px;
-        // flex-wrap: wrap;
-        // flex: 2;
+      .div2 {
+        padding: 10px;
+        width: 50%;
 
-        .card {
-          flex: 1;
-          padding: 5px 20px;
-          padding-bottom: 20px;
-          border-radius: 10px;
-          justify-content: space-between;
+        .div2Content {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          margin-left: 50px;
 
-          //   &:nth-child(3) {
-          //     flex-shrink: 0;
-          //     flex-basis: 0;
-          //     flex-grow: 25%;
-          //     padding: 5px 20px;
-          //   }
-
-          h5 {
-            font-size: 14px;
-            text-transform: uppercase;
-            margin-bottom: 0;
-          }
-
-          h6 {
-            font-size: 14px;
-            margin-bottom: 10px;
-            font-weight: bold;
-            // padding: 0;
-          }
-
-          span {
-            font-size: 12px;
+          h4 {
+            font-size: 28px;
             font-weight: normal;
           }
+
+          p {
+            margin: 0;
+            padding-bottom: 30px;
+            color: rgba(128, 128, 128, 0.863);
+          }
+        }
+        .btn {
+          width: 15%;
+          margin-left: 50px;
+          text-align: center;
         }
       }
     }

@@ -19,6 +19,7 @@
       color: grey;
       padding-bottom: 0;
       margin-bottom: 0;
+      // margin-right: 20px;
       letter-spacing: 3px;
     }
 
@@ -86,4 +87,8 @@
       height: 28px;
     }
   }
+}
+
+@media screen and (width: 720px) {
+  
 }

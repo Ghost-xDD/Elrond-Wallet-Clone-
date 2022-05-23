@@ -5,10 +5,17 @@ import Featured from '../../components/featured/Featured';
 import Chart from '../../components/chart/Chart';
 import TokenStat from '../../components/tokenStat/TokenStat';
 import Transaction from '../../components/transaction/Transaction';
+import { motion } from 'framer-motion';
 
 const Dashboard = () => {
   return (
-    <div className="dashboard">
+    <motion.div
+      className="dashboard"
+      transition={{ ease: 'easeOut', duration: 0.2 }}
+      // initial={{ opacity: 0 }}
+      // animate={{ opacity: 1 }}
+      // exit={{ opacity: 0 }}
+    >
       <Sidebar />
       <div className="dashboardContainer bg">
         <Navbar />
@@ -24,7 +31,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

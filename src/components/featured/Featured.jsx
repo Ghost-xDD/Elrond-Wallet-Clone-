@@ -8,7 +8,7 @@ import TokenOutlinedIcon from '@mui/icons-material/TokenOutlined';
 const Featured = () => {
   return (
     <div className="featured">
-      <div className="top">
+      <div className="top"> 
         <span>Elrond</span>
         <h1 className="title">Nǐ hǎo!</h1>
       </div>
