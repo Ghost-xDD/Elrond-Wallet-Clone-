@@ -1,0 +1,116 @@
+.sign {
+  display: flex;
+  overflow: clip;
+
+  .signContainer {
+    flex: 6;
+    min-width: 0;
+
+    .signBody {
+      padding: 50px;
+      width: 78%;
+      margin-left: 35px;
+      margin-top: 5px;
+
+      .title {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-size: 10px;
+          text-transform: uppercase;
+          color: grey;
+          padding: 0;
+          margin-bottom: 0;
+          letter-spacing: 3px;
+        }
+
+        .titleContainer {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-between;
+          padding-bottom: 30px;
+
+          .titleHeading {
+            display: flex;
+            align-items: center;
+
+            h4 {
+              font-size: 24px;
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .signContent {
+        background: #fff;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        // height: 400px;
+
+        .slice {
+          height: 10px;
+          background: #1b46c2;
+          border-radius: 5px 5px 0px 0px;
+          padding: 3px;
+          margin: 0;
+        }
+
+        .signContentHeader {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          //   background: red;
+          // width: 100%;
+          justify-content: space-between;
+
+          .nav {
+            width: 95%;
+            border-bottom: 1px solid grey;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+
+            .navContent {
+              display: flex;
+              flex-direction: row;
+              // width: 50%;
+              // justify-content: space-between;
+              align-items: center;
+              cursor: pointer;
+              // text-align: center;
+
+              &:first-child {
+              }
+            }
+
+            // background: red;
+
+            li {
+              list-style: none;
+              font-size: 18px;
+              color: #555;
+            }
+
+            .active {
+              border-bottom: 2px solid blue;
+              // padding: 10px;
+              // border-radius: 10px;
+            }
+
+            .sign {
+              // padding: 50px;
+            }
+          }
+        }
+      }
+
+      .outlet {
+        width: 80%;
+      }
+    }
+  }
+}

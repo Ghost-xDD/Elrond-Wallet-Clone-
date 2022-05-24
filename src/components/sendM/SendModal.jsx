@@ -1,5 +1,6 @@
 import './sendmodal.scss';
 import TokenOutlinedIcon from '@mui/icons-material/TokenOutlined';
+import { motion } from 'framer-motion';
 import Elrond from '../../assets/Elrond_logo.svg';
 
 const SendModal = () => {
@@ -8,7 +9,7 @@ const SendModal = () => {
       <div className="sendModalContainer">
         <div className="slice" />
         <div className="sendModalTitle">
-          <h1>Send</h1>
+          {/* <h1>Send</h1> */}
           <span>Enter Amount and recipient</span>
         </div>
         <form>
@@ -27,7 +28,7 @@ const SendModal = () => {
 
                 <select>
                   <option value="egld">
-                    <TokenOutlinedIcon className="icon" />
+                    <TokenOutlinedIcon className="icon" /> 
                     Elrond eGold <span>EGLD</span>
                   </option>
                 </select>
@@ -37,23 +38,34 @@ const SendModal = () => {
               <div className="fee">
                 <details>
                   <summary>Fee 0.00005 EGLD</summary>
-                  <span>$0.0045</span>
-                  <div className="gasPrice">
-                    <label htmlFor="gasPrice">Gas Price</label>
-                    <input type="text" />
-                  </div>
-                  <div className="gasLimit">
-                    <label htmlFor="gasLimit">Gas Limit</label>
-                    <input type="text" />
+                  <div className="hiddenDiv">
+                    <div className="gasPrice">
+                      <label htmlFor="gasPrice">Gas Price</label>
+                      <input type="text" />
+                    </div>
+                    <div className="gasLimit">
+                      <label htmlFor="gasLimit">Gas Limit</label>
+                      <input type="text" />
+                    </div>
                   </div>
                 </details>
               </div>
-              <div className="data">
-                <label htmlFor="data">Data</label>
-                <textarea rows="4" cols="50" name="comment">
-                  Enter text here...
-                </textarea>
-              </div>
+            </div>
+            <div className="dataContainer">
+              <label htmlFor="data">Data</label>
+              <textarea
+                rows="4"
+                cols="50"
+                name="comment"
+                className="rex"
+              ></textarea>
+            </div>
+            <div className="footer">
+              <motion.div whileTap={{ scale: 0.9 }} className="btn">
+                Send
+              </motion.div>
+              {/* &nbsp; */}
+              <div className="btn">Close</div>
             </div>
           </div>
         </form>

@@ -1,0 +1,48 @@
+.receive {
+  display: flex;
+  overflow: clip;
+
+  .receiveContainer {
+    flex: 6;
+    min-width: 0;
+
+    .receiveBody {
+      padding: 50px;
+      width: 86%;
+      margin-left: 35px;
+      margin-top: 5;
+
+      .title {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-size: 10px;
+          text-transform: uppercase;
+          color: grey;
+          padding: 0;
+          margin-bottom: 0;
+          letter-spacing: 3px;
+        }
+
+        .titleContainer {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-between;
+          padding-bottom: 30px;
+
+          .titleHeading {
+            display: flex;
+            align-items: center;
+
+            h4 {
+              font-size: 24px;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

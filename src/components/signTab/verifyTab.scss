@@ -1,0 +1,43 @@
+.verifyTab {
+  width: 100%;
+  //   background: red;
+
+  .verifyTabContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 15px;
+    // padding: 50px;
+
+    input {
+      outline: none;
+      border: none;
+      border: 1px solid rgba(85, 85, 85, 0.582);
+      height: 50px;
+      border-radius: 10px;
+      width: 100%;
+    }
+    // color: red;
+  }
+
+  .btn {
+    text-align: center;
+    // padding-bottom: 10px 20px;
+    padding-bottom: 20px;
+
+    button:hover {
+      background: rgba(0, 0, 139, 0.507);
+    }
+
+    button {
+      outline: none;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      background-color: #1b46c2;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

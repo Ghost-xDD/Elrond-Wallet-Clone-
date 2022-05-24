@@ -19,8 +19,6 @@ const Tokens = () => {
             <div className="titleContainer">
               <div className="titleHeading">
                 <h4>Tokens</h4>
-                &nbsp;&nbsp;&nbsp;
-                <FiRefreshCw className="icon" />
               </div>
               <div className="titleIcons">
                 <IoIosFunnel className="icon" />
