@@ -10,10 +10,10 @@ const Stake = () => {
   return (
     <motion.div
       className="stake"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      // initial={{ opacity: 0 }}
+      // animate={{ opacity: 1 }}
       // transition={{ ease: 'easeOut', duration: 0.9 }}
-      exit={{ opacity: 0 }}
+      // exit={{ opacity: 0 }}
     >
       <Sidebar />
       <div className="stakeContainer bg">

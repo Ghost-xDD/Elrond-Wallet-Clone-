@@ -10,7 +10,7 @@ import Buy from '../../pages/buy/Buy';
 import Stake from '../../pages/stake/Stake';
 import Delegate from '../../pages/delegate/Delegate';
 import Validate from '../../pages/validate/Validate';
-import IsTokens from '../../pages/istokens/IsTokens';
+// import IsTokens from '../../pages/istokens/IsTokens';
 import Timer from '../../pages/timer/Timer';
 import FramerModal from '../../pages/framermodal/FramerModal';
 
@@ -34,7 +34,7 @@ const AnimatedRoutes = () => {
           <Route path="stake" element={<Stake />}></Route>
           <Route path="delegate" element={<Delegate />}></Route>
           <Route path="validate" element={<Validate />}></Route>
-          <Route path="istokens" element={<IsTokens />}></Route>
+          {/* <Route path="istokens" element={<IsTokens />}></Route> */}
           <Route path="timer" element={<Timer />}></Route>
           <Route path="framermodal" element={<FramerModal />}></Route>
         </Route>

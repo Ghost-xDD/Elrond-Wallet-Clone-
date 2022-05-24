@@ -7,7 +7,7 @@
   .transactionsContainer {
     flex: 6;
     min-width: 0;
- 
+
     .transactionsBody {
       padding: 50px;
       width: 86%;
@@ -77,6 +77,7 @@
         padding: 2px 20px;
         border-radius: 8px;
         height: 400px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
         .transactionsContentHeader {
           display: flex;
