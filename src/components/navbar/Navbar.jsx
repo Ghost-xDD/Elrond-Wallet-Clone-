@@ -4,7 +4,7 @@ import { MdOutlineQrCode } from 'react-icons/md';
 import { RiMoonLine } from 'react-icons/ri';
 import { GiBrickWall } from 'react-icons/gi';
 import { BsBoxArrowRight } from 'react-icons/bs';
-
+ 
 const Navbar = () => {
   return (
     <div className="navbar">

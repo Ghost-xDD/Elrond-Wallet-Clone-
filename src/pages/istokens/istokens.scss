@@ -1,0 +1,56 @@
+.isTokens {
+  display: flex;
+  overflow: clip;
+
+  .isTokensContainer {
+    flex: 6;
+    min-width: 0;
+
+    .isTokensBody {
+      padding: 50px;
+      width: 86%;
+      margin-left: 35px;
+      margin-top: 5px;
+
+      .title {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-size: 10px;
+          text-transform: uppercase;
+          color: grey;
+          padding: 0;
+          margin-bottom: 0;
+          letter-spacing: 3px;
+        }
+
+        .titleContainer {
+          display: flex;
+          align-items: center;
+          width: 99%;
+          justify-content: space-between;
+          padding-bottom: 30px;
+
+          .titleHeading {
+            display: flex;
+            align-items: center;
+
+            h4 {
+              font-size: 24px;
+              margin: 0;
+            }
+          }
+        }
+
+        .isTokensContent {
+          padding: 100px;
+
+          .isTokensContentHeader {
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+}

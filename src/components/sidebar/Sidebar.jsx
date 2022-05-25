@@ -14,7 +14,7 @@ import elrond from '../../assets/elrond.png';
 import { Link, NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
-  return (
+  return ( 
     <div className="sidebar">
       <div className="sidebarContainer">
         <div className="top">
@@ -162,7 +162,7 @@ const Sidebar = () => {
             </NavLink>
             <p className="title">Issue</p>
             <NavLink
-              to="/validate"
+              to="/istokens"
               style={({ isActive }) => ({
                 color: isActive ? '#1b46c2' : 'grey',
                 textDecoration: 'none',

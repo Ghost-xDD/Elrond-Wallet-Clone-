@@ -40,3 +40,12 @@
     }
   }
 }
+
+@media screen and (max-width: 720px) {
+  .tokenContainer {
+    .tokenStat {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -6,7 +6,7 @@ import { ImStack } from 'react-icons/im';
 import TokenOutlinedIcon from '@mui/icons-material/TokenOutlined';
 
 const Featured = () => {
-  return (
+  return ( 
     <div className="featured">
       <div className="top"> 
         <span>Elrond</span>

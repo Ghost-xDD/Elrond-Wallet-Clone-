@@ -1,6 +1,4 @@
 import './send.scss';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
 import SendModal from '../../components/sendM/SendModal';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Navbar from '../../components/navbar/Navbar';

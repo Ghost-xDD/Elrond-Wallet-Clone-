@@ -1,42 +1,32 @@
-// import './istokens.scss';
-// import { useState } from 'react';
-// import FirstTab from '../../components/allTabs/FirstTab';
-// import SecondTab from '../../components/allTabs/SecondTab';
+import './istokens.scss';
+import TokenModal from '../../components/tokenModal/TokenModal';
+import Sidebar from '../../components/sidebar/Sidebar';
+import Navbar from '../../components/navbar/Navbar';
 
-// const IsTokens = () => {
-//   const [activeTab, setActiveTab] = useState('tab1');
+const IsTokens = () => {
+  return (
+    <div className="isTokens">
+      <Sidebar />;
+      <div className="isTokensContainer bg">
+        <Navbar />
+        <div className="isTokensBody">
+          <div className="title">
+            <span>Elrond</span>
+            <div className="titleContainer">
+              <div className="titleHeading">
+                <h4>Issue</h4>
+              </div>
+            </div>
+          </div>
+          <div className="isTokensContent">
+            <div className="isTokensContentHeader">
+              <TokenModal />;
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-//   const handleTab1 = () => {
-//     // update the state to tab1
-//     setActiveTab('tab1');
-//   };
-//   const handleTab2 = () => {
-//     // update the state to tab2
-//     setActiveTab('tab2');
-//   };
-
-//   return (
-//     <div className="Tabs">
-//       {/* Tab nav */}
-//       <ul className="nav">
-//         <li
-//           className={activeTab === 'tab1' ? 'active' : ''}
-//           onClick={handleTab1}
-//         >
-//           Tab 1
-//         </li>
-//         <li
-//           className={activeTab === 'tab2' ? 'active' : ''}
-//           onClick={handleTab2}
-//         >
-//           Tab 2
-//         </li>
-//       </ul>
-//       <div className="outlet">
-//         {activeTab === 'tab1' ? <FirstTab /> : <SecondTab />}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default IsTokens;
+export default IsTokens;

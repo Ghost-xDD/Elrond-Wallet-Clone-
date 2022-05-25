@@ -9,7 +9,7 @@ const Transaction = () => {
         <h4>Latest Transactions</h4>
         &nbsp;&nbsp;&nbsp;
         <FiRefreshCw className="icon" />
-      </div>
+      </div> 
       <div className="transactionContent">
         <RiMenu4Fill className="icon" />
         <h4>No Transactions</h4>

@@ -90,5 +90,12 @@
 }
 
 @media screen and (width: 720px) {
-  
+  .featured {
+    flex: 1;
+
+    .cards {
+      display: block;
+      // width: 100px;
+    }
+  }
 }

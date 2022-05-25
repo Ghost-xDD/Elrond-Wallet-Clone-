@@ -135,9 +135,9 @@ const Stake = () => {
               </div>
               <div className="btn">Stake Now</div>
             </div>
-          </div>
+          </div>  
         </div>
-      </div>
+      </div>  
     </motion.div>
   );
 };

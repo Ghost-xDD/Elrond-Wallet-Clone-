@@ -101,3 +101,31 @@
     }
   }
 }
+
+@media screen and (max-width: 720px) {
+  .sidebar {
+    display: none;
+
+    .sidebarContainer {
+      position: relative;
+
+      .top {
+        width: 100%;
+        margin-right: 50px;
+
+        .logo {
+          display: flex;
+          align-items: start;
+        }
+      }
+
+      .grey {
+        display: none;
+      }
+
+      .center {
+        padding-left: 0;
+      }
+    }
+  }
+}
