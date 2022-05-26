@@ -102,6 +102,20 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+
+    .sidebarContainer {
+      display: none;
+
+      .center { 
+        padding-left: 0;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 720px) {
   .sidebar {
     display: none;

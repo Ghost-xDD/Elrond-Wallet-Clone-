@@ -19,6 +19,7 @@ const Dashboard = () => {
       <Sidebar />
       <div className="dashboardContainer bg">
         <Navbar />
+        <div className="break">Not available on Mobile</div>
         <div className="dashboardBody">
           <Featured />
           <div className="dashboardRow">

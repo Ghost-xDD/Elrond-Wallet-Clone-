@@ -1,10 +1,14 @@
 .dashboard {
   display: flex;
   overflow: clip;
-
+ 
   .dashboardContainer {
     flex: 6;
     min-width: 0;
+
+    .break {
+      display: none;
+    }
 
     .dashboardBody {
       // background: #e9f3ff;
@@ -28,8 +32,28 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .dashboard {
+    .dashboardContainer {
+      .break {
+        display: block;
+      }
+      .dashboardBody {
+        display: none;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 720px) {
   .dashboard {
-    display: none;
+    .dashboardContainer {
+      .break {
+        display: block;
+      }
+      .dashboardBody {
+        display: none;
+      }
+    }
   }
 }

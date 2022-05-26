@@ -8,6 +8,10 @@
     flex: 6;
     min-width: 0;
 
+    .break {
+      display: none;
+    }
+
     .transactionsBody {
       padding: 50px;
       width: 86%;
@@ -115,6 +119,32 @@
             font-size: 18px;
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .transactions {
+    .transactionsContainer {
+      .break {
+        display: block;
+      }
+      .transactionsBody {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .transactions {
+    .transactionsContainer {
+      .break {
+        display: block;
+      }
+      .transactionsBody {
+        display: none;
       }
     }
   }

@@ -13,6 +13,7 @@ const Transactions = () => {
       <Sidebar />
       <div className="transactionsContainer bg">
         <Navbar />
+        <div className="break">Not available on Mobile</div>
         <div className="transactionsBody ">
           <div className="title">
             <span>Elrond</span>
@@ -38,7 +39,7 @@ const Transactions = () => {
               <h4>No Transactions</h4>
               <p>No transactions found for this wallet</p>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
     </div>
