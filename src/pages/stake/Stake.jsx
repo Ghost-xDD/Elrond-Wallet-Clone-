@@ -5,7 +5,7 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import VisibilitySensor from 'react-visibility-sensor';
 import { motion } from 'framer-motion';
-
+ 
 const Stake = () => {
   return (
     <motion.div
@@ -100,7 +100,7 @@ const Stake = () => {
                           strokeWidth={6}
                           styles={buildStyles({
                             pathColor: `#1b46c2`,
-                            textColor: 'blue',
+                            textColor: '#1b46c2',
                             trailColor: '#999',
                             backgroundColor: '#000',
                             cursor: 'pointer',

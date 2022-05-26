@@ -36,13 +36,13 @@
           padding-bottom: 30px;
 
           .icon {
-            // font-size: 14px;
+            cursor: pointer;
 
             &:nth-child(1) {
               border: 1px solid rgba(85, 85, 85, 0.514);
               padding: 5px;
               border-radius: 5px;
-              color: darkblue;
+              color: #1b46c2;
               font-size: 14px;
               margin-right: 8px;
             }
@@ -51,7 +51,7 @@
               border: 1px solid rgba(85, 85, 85, 0.514);
               padding: 5px;
               border-radius: 5px;
-              color: rgba(0, 0, 255, 0.692);
+              color: #1b46c2;
             }
           }
 
@@ -67,6 +67,7 @@
             .icon {
               color: rgba(128, 128, 128, 0.589);
               font-size: 14px;
+              cursor: pointer;
             }
           }
         }
@@ -98,7 +99,8 @@
 
           .icon {
             font-size: 50px;
-            color: rgba(0, 0, 255, 0.644);
+            color: #1b46c2;
+            cursor: pointer;
             // font-weight: bold;
           }
 

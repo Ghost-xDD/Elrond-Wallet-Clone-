@@ -22,7 +22,7 @@ const Sign = () => {
       <Sidebar />
       <div className="signContainer bg">
         <Navbar />
-        <div className="signBody">
+        <div className="signBody"> 
           <div className="title">
             <span>Elrond</span>
             <div className="titleContainer ">

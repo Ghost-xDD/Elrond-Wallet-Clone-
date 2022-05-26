@@ -8,7 +8,7 @@ import {
   Tooltip,
   Legend,
   ReferenceLine,
-  ResponsiveContainer, 
+  ResponsiveContainer,
 } from 'recharts';
 import { RiLineChartLine } from 'react-icons/ri';
 import { BsFillCaretDownFill } from 'react-icons/bs';
@@ -58,7 +58,7 @@ const data = [
 
 const Chart = (aspect) => {
   return (
-    <div className='charts'>
+    <div className="charts">
       <div className="chartContainer">
         <div className="chart">
           <div className="title">Elrond eGold</div>
@@ -86,7 +86,7 @@ const Chart = (aspect) => {
               <Line
                 type="monotone"
                 dataKey="USD"
-                stroke="blue"
+                stroke="#1b46c2"
                 activeDot={{ r: 8 }}
               />
               {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}

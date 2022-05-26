@@ -2,7 +2,7 @@ import './tokenmodal.scss';
 import { motion } from 'framer-motion';
 
 const TokenModal = () => {
-  return (
+  return ( 
     <div className="tokenModalBackground">
       <div className="tokenModalContainer">
         <div className="slice" />

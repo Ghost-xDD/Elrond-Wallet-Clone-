@@ -1,0 +1,471 @@
+.app.dark {
+  background: rgba(0, 0, 0, 0.945);
+
+  .navbar {
+    background: rgba(0, 0, 0, 0.178);
+
+    .address {
+      span {
+        color: rgba(255, 255, 255, 0.74);
+      }
+    }
+
+    .items {
+      color: rgba(128, 128, 128, 0.836);
+    }
+  }
+
+  .sidebar {
+    background: rgba(0, 0, 0, 0.089);
+
+    li {
+      &:hover {
+        background-color: rgba(128, 128, 128, 0.349);
+      }
+    }
+  }
+
+  .charts {
+    .chartContainer {
+      background: rgba(0, 0, 0, 0.089);
+    }
+
+    .title {
+      color: rgba(255, 255, 255, 0.74);
+    }
+
+    .chartGrid {
+      stroke: rgba(128, 128, 128, 0.151);
+    }
+  }
+
+  .tokenContainer {
+    .tokenStat {
+      background: rgba(0, 0, 0, 0.089);
+
+      .title {
+        h1 {
+          color: rgba(255, 255, 255, 0.74);
+        }
+      }
+    }
+
+    .content {
+      h4 {
+        color: rgba(255, 255, 255, 0.74);
+      }
+    }
+  }
+
+  .featured {
+    .top {
+      h1 {
+        color: rgba(255, 255, 255, 0.74);
+      }
+    }
+  }
+
+  .transactionContainer {
+    background: rgba(0, 0, 0, 0.089);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+    .title {
+      h4 {
+        color: rgba(255, 255, 255, 0.74);
+      }
+    }
+
+    .transactionContent {
+      h4 {
+        color: rgba(255, 255, 255, 0.74);
+      }
+
+      p {
+        color: rgba(255, 255, 255, 0.74);
+      }
+    }
+  }
+
+  .transactions {
+    .transactionsContainer {
+      .titleHeading {
+        h4 {
+          color: rgba(255, 255, 255, 0.74);
+        }
+      }
+
+      .transactionsContent {
+        .transactionsContentHeader {
+          h4 {
+            color: rgba(255, 255, 255, 0.74);
+          }
+        }
+
+        .transactionsMain {
+          h4 {
+            color: rgba(255, 255, 255, 0.74);
+          }
+
+          p {
+            color: rgba(255, 255, 255, 0.74);
+          }
+        }
+
+        background: rgba(0, 0, 0, 0.089);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+      }
+    }
+  }
+
+  .send {
+    .sendContainer {
+      .titleHeading {
+        color: rgba(255, 255, 255, 0.74);
+      }
+    }
+
+    .sendModalBackground {
+      background: rgba(0, 0, 0, 0.089);
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+      .controlgroup {
+        label {
+          color: rgba(255, 255, 255, 0.74);
+        }
+
+        input {
+          background: rgba(128, 128, 128, 0.267);
+          color: #fff;
+          font-size: 18px;
+        }
+
+        .tokenSelect {
+          select {
+            background: rgba(128, 128, 128, 0.267);
+            color: #fff;
+          }
+        }
+
+        .feeContainer {
+          summary {
+            color: rgba(255, 255, 255, 0.74);
+          }
+        }
+
+        .dataContainer {
+          textarea {
+            background: rgba(128, 128, 128, 0.267);
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .receive {
+    .titleHeading {
+      h4 {
+        color: grey;
+      }
+    }
+
+    .receiveModalBackground {
+      background: rgba(0, 0, 0, 0.089);
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+      .receiveModalTitle {
+        span {
+          color: rgba(255, 255, 255, 0.74);
+        }
+      }
+
+      .qrCode {
+        img {
+          color: white;
+        }
+      }
+
+      .addressContent {
+        span {
+          color: rgba(255, 255, 255, 0.418);
+        }
+      }
+    }
+  }
+
+  .sign {
+    .signBody {
+      .title {
+        color: rgba(255, 255, 255, 0.664);
+      }
+
+      .signContent {
+        background: rgba(0, 0, 0, 0.089);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+      }
+
+      .signTab {
+        .signTabContent {
+          input {
+            background: rgba(128, 128, 128, 0.267);
+            color: #fff;
+            font-size: 18px;
+          }
+
+          label {
+            color: grey;
+            // font-size: 20px;
+          }
+        }
+      }
+
+      .verifyTab {
+        .verifyTabContent {
+          input {
+            background: rgba(128, 128, 128, 0.267);
+            color: #fff;
+            font-size: 18px;
+          }
+
+          label {
+            color: grey;
+            // font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .tokens {
+    .tokensBody {
+      .titleContainer {
+        .titleHeading {
+          color: rgba(255, 255, 255, 0.664);
+        }
+      }
+
+      .tokensContent {
+        background: rgba(0, 0, 0, 0.089);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+        .tokensContentHeader {
+          h4 {
+            color: rgba(255, 255, 255, 0.664);
+          }
+        }
+
+        .tokensMain {
+          h4 {
+            color: rgba(255, 255, 255, 0.507);
+          }
+        }
+      }
+    }
+  }
+
+  .nft {
+    .nftBody {
+      .titleHeading {
+        h4 {
+          color: rgba(255, 255, 255, 0.664);
+        }
+      }
+
+      .nftContent {
+        background: rgba(0, 0, 0, 0.089);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+        .nftMain {
+          h4 {
+            color: rgba(255, 255, 255, 0.664);
+          }
+        }
+      }
+    }
+  }
+
+  .stake {
+    .stakeBody {
+      .titleHeading {
+        color: rgba(255, 255, 255, 0.664);
+      }
+
+      .container {
+        .contentContainer {
+          .overviewContainer {
+            background: rgba(0, 0, 0, 0.089);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+            .overviewTitle {
+              color: rgba(255, 255, 255, 0.664);
+            }
+          }
+        }
+
+        .staking {
+          background: rgba(0, 0, 0, 0.089);
+          -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+          box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+          .stakingTitle {
+            color: rgba(255, 255, 255, 0.664);
+          }
+
+          .stakingContent {
+            color: rgba(255, 255, 255, 0.664);
+
+            span {
+              color: grey;
+            }
+          }
+        }
+      }
+
+      .stakeStats {
+        background: rgba(0, 0, 0, 0.089);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+        .div2 {
+          h4 {
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+
+  .delegate {
+    .delegateContainer {
+      .delegateBody {
+        .titleContainer {
+          h4 {
+            color: rgba(255, 255, 255, 0.664);
+          }
+        }
+      }
+
+      .container {
+        .contentContainer {
+          .overviewContainer {
+            background: rgba(0, 0, 0, 0.089);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+            .overviewTitle {
+              color: rgba(255, 255, 255, 0.664);
+            }
+          }
+        }
+
+        .delegation {
+          background: rgba(0, 0, 0, 0.089);
+          -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+          box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+          .delegationTitle {
+            color: rgba(255, 255, 255, 0.664);
+          }
+
+          .delegationContent {
+            h4 {
+              color: rgba(255, 255, 255, 0.664);
+            }
+
+            span {
+              color: grey;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .validate {
+    .validateContainer {
+      .validateBody {
+        .titleContainer {
+          h4 {
+            color: rgba(255, 255, 255, 0.664);
+          }
+        }
+      }
+
+      .container {
+        .contentContainer {
+          .overviewContainer {
+            background: rgba(0, 0, 0, 0.089);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+            .overviewTitle {
+              color: rgba(255, 255, 255, 0.664);
+            }
+          }
+        }
+
+        .validation {
+          background: rgba(0, 0, 0, 0.089);
+          -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+          box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+          .validationTitle {
+            color: rgba(255, 255, 255, 0.664);
+          }
+
+          .validationContent {
+            h4 {
+              color: rgba(255, 255, 255, 0.664);
+            }
+
+            span {
+              color: grey;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .isTokens {
+    .isTokensBody {
+      .title {
+        h4 {
+          color: rgba(255, 255, 255, 0.664);
+        }
+      }
+    }
+
+    .tokenModalBackground {
+      background: rgba(0, 0, 0, 0.089);
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
+
+      .formContent {
+        label {
+          color: rgba(255, 255, 255, 0.664);
+        }
+
+        input {
+          background: rgba(128, 128, 128, 0.267);
+          color: #fff;
+          font-size: 18px;
+        }
+      }
+
+      .features {
+        label {
+          color: rgba(255, 255, 255, 0.664);
+        }
+      }
+    }
+  }
+}

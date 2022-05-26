@@ -10,10 +10,10 @@ const Delegate = () => {
   return (
     <motion.div
       className="delegate"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      // initial={{ opacity: 0 }}
+      // animate={{ opacity: 1 }}
       // transition={{ duration: 1 }}
-      exit={{ opacity: 0 }}
+      // exit={{ opacity: 0 }}
     >
       <Sidebar />
       <div className="delegateContainer bg">
@@ -100,7 +100,7 @@ const Delegate = () => {
                           strokeWidth={6}
                           styles={buildStyles({
                             pathColor: `#1b46c2`,
-                            textColor: 'blue',
+                            textColor: '#1b46c2',
                             trailColor: '#999',
                             backgroundColor: '#000',
                             cursor: 'pointer',

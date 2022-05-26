@@ -8,7 +8,7 @@ const Send = () => {
     <div className="send">
       <Sidebar />;
       <div className="sendContainer bg">
-        <Navbar />
+        <Navbar /> 
         <div className="sendBody">
           <div className="title">
             <span>Elrond</span>

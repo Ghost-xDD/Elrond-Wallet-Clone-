@@ -14,7 +14,7 @@ const Transactions = () => {
       <div className="transactionsContainer bg">
         <Navbar />
         <div className="transactionsBody ">
-          <div className="title"> 
+          <div className="title">
             <span>Elrond</span>
             <div className="titleContainer">
               <div className="titleHeading">
@@ -31,14 +31,14 @@ const Transactions = () => {
           <div className="transactionsContent">
             <div className="transactionsContentHeader">
               <h4>Transactions</h4>
-              <h4 style={{ color: 'blue' }}>SC Results</h4>
+              <h4 style={{ color: '#1b46c2' }}>SC Results</h4>
             </div>
             <div className="transactionsMain">
               <RiMenu4Fill className="icon" />
               <h4>No Transactions</h4>
               <p>No transactions found for this wallet</p>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>

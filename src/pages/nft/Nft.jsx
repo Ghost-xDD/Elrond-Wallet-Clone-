@@ -6,7 +6,7 @@ import { RiMenu4Fill } from 'react-icons/ri';
 import { IoIosFunnel } from 'react-icons/io';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import { FiDatabase } from 'react-icons/fi';
-
+ 
 const Nft = () => {
   return (
     <div className="nft">

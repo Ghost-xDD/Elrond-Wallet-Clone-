@@ -10,10 +10,10 @@ const Validate = () => {
   return (
     <motion.div
       className="validate"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ ease: 'easeOut', duration: 0.1 }}
-      exit={{ opacity: 0 }}
+      // initial={{ opacity: 0 }}
+      // animate={{ opacity: 1 }}
+      // transition={{ ease: 'easeOut', duration: 0.1 }}
+      // exit={{ opacity: 0 }}
     >
       <Sidebar />
       <div className="validateContainer bg">
@@ -97,7 +97,7 @@ const Validate = () => {
                           strokeWidth={6}
                           styles={buildStyles({
                             pathColor: `#1b46c2`,
-                            textColor: 'blue',
+                            textColor: '#1b46c2',
                             trailColor: '#999',
                             backgroundColor: '#000',
                             cursor: 'pointer',

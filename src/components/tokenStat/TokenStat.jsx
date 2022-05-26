@@ -8,7 +8,7 @@ const TokenStat = () => {
         <div className="title">
           <h1>Tokens</h1>
           &nbsp;&nbsp;&nbsp;
-          <h1 style={{ color: 'rgba(0, 0, 139, 0.884)' }}>Meta ESDT</h1>
+          <h1 style={{ color: '#1b46c2' }}>Meta ESDT</h1>
         </div>
         <div className="content">
           <FiDatabase className="icon" />

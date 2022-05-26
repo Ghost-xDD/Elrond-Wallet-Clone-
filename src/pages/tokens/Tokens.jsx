@@ -29,7 +29,7 @@ const Tokens = () => {
           <div className="tokensContent">
             <div className="tokensContentHeader">
               <h4>Tokens</h4>
-              <h4 style={{ color: 'blue' }}>SC Results</h4>
+              <h4 style={{ color: '#1b46c2' }}>SC Results</h4>
             </div>
             <div className="tokensMain">
               <FiDatabase className="icon" />

@@ -7,6 +7,8 @@
     height: 440px;
     padding: 20px;
     border-radius: 15px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(232, 245, 247, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(252, 251, 251, 0.47);
 
     .title {
       display: flex;
@@ -29,7 +31,7 @@
       padding-top: 150px;
 
       .icon {
-        color: rgba(0, 0, 255, 0.733);
+        color: #1b46c2;
         font-size: 60px;
       }
 

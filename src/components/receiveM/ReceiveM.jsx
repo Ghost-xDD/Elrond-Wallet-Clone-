@@ -1,5 +1,5 @@
 import './receivem.scss';
-import frameT from '../../assets/frameT.png';
+import frameT from '../../assets/frameT.jpg';
 import { MdOutlineContentCopy } from 'react-icons/md';
 import { BsSearch } from 'react-icons/bs';
 
@@ -9,11 +9,11 @@ const ReceiveM = () => {
       <div className="receiveModalContainer">
         <div className="slice" />
         <div className="receiveBody">
-          <div className="sendModalTitle">
+          <div className="receiveModalTitle">
             <span>Here is the QR code and your wallet address.</span>
           </div>
           <div className="qrCode">
-            <img src={frameT} alt="" />
+            <img src={frameT} alt="" /> 
           </div>
           <div className="footer">
             <div className="address">

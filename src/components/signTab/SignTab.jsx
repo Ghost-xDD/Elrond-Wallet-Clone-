@@ -12,7 +12,7 @@ const SignTab = () => {
         {/* <button>Close</button> */}
       </div>
     </div>
-  );
+  ); 
 };
 
 export default SignTab;

@@ -2,7 +2,7 @@ import './istokens.scss';
 import TokenModal from '../../components/tokenModal/TokenModal';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Navbar from '../../components/navbar/Navbar';
-
+ 
 const IsTokens = () => {
   return (
     <div className="isTokens">

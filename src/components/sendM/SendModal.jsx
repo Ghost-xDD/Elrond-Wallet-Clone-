@@ -12,7 +12,7 @@ const SendModal = () => {
           {/* <h1>Send</h1> */}
           <span>Enter Amount and recipient</span>
         </div>
-        <form>
+        <form> 
           <div className="controlgroup">
             <div className="sendTo">
               <label htmlFor="send">To:</label>
