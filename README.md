@@ -1,4 +1,4 @@
 # Elrond-Wallet-Clone-
 
 A clone of the Elrong Blockchain's native wallet.
-Built with React js and Scss
+Built with React Js and Scss.
